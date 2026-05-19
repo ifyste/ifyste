@@ -1,61 +1,79 @@
 # Hello, I'm Sena
+<a href="https://linkedin.com">
+<img src="https://img.shields.io/badge/-LinkedIn-0072b1?
+&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-I'm an aspiring cybersecurity professional based in the Vancouver area, passionate about defensive security and threat detection. I'm currently building hands-on experience through self-directed lab work and portfolio projects while preparing to enter BCIT's Computer Systems Technology program — with a focused goal of working as a SOC Tier 1 Analyst.
+Aspiring cybersecurity professional based in Vancouver, 
+focused on defensive security and SOC operations. 
+Currently building hands-on skills through an 
+active homelab environment — attacking and defending 
+my own infrastructure to understand both sides of 
+the threat landscape. Targeting a SOC Tier 1 Analyst 
+role.
 
 ## Objective
+I learn by doing. This repository documents my 
+homelab journey — real attacks against intentionally 
+vulnerable machines, detection and analysis from the 
+defender side, and write-ups that explain what 
+happened and why. Every lab here represents 
+something I built, broke, and understood myself.
 
-Driven by a deep interest in how attackers think and how defenders respond, I've been building practical skills in SIEM, log analysis, and network monitoring through home lab environments. I'm actively working toward an entry-level SOC Analyst role where I can contribute to real-world threat detection and incident response operations.
+## Active Lab Environment
+- **Attacker:** Kali Linux (bare metal) 
+- **Target:** Metasploitable 2 (VirtualBox)
+- **Focus:** Reconnaissance, exploitation, 
+  log analysis, and detection
 
-## Skills
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="#">Home SOC Lab</a> |
-| Network Traffic Monitoring and Attack Detection | <a href="#">Home SOC Lab</a> |
-| Log Ingestion and Parsing                     | <a href="#">Home SOC Lab</a> |
-| Security Automation with Shuffle SOAR         | SOC Automation Lab |
-| Incident Response Planning and Execution      | SOC Automation Lab |
-| Case Management with TheHive                  | SOC Automation Lab |
+## Skills (hands-on)
+| Skill | Evidence |
+|-------|----------|
+| Network reconnaissance | Lab 01 — Nmap scan |
+| (more added as labs complete) | |
 
 ## Tools
-
 ### Network
 <div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Nmap-004170?&style=for-the-badge&logo=Nmap&logoColor=white" />
+<img src="https://img.shields.io/badge/-Wireshark-
+1679A7?&style=for-the-badge&logo=Wireshark
+&logoColor=white" />
+<img src="https://img.shields.io/badge/-Nmap-004170?
+&style=for-the-badge&logo=Nmap&logoColor=white" />
 </div>
 
-### Endpoint
+### Offensive
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Sysmon-4B275F?&style=for-the-badge&logo=Windows&logoColor=white" />
+<img src="https://img.shields.io/badge/-Metasploit-
+2596CD?&style=for-the-badge&logo=metasploit
+&logoColor=white" />
+<img src="https://img.shields.io/badge/-Kali_Linux-
+557C94?&style=for-the-badge&logo=KaliLinux
+&logoColor=white" />
 </div>
 
-### SIEM
+### Virtualization
 <div>
-    <img src="https://img.shields.io/badge/-Elastic_(ELK)-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-</div>
-
-### Virtualization & Lab
-<div>
-    <img src="https://img.shields.io/badge/-VirtualBox-183A61?&style=for-the-badge&logo=VirtualBox&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Kali_Linux-557C94?&style=for-the-badge&logo=KaliLinux&logoColor=white" />
+<img src="https://img.shields.io/badge/-VirtualBox-
+183A61?&style=for-the-badge&logo=VirtualBox
+&logoColor=white" />
 </div>
 
 ## Certifications
-
 <div>
-<img src="https://img.shields.io/badge/-Google_Cybersecurity_Certificate-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
-<img src="https://img.shields.io/badge/-TryHackMe_SOC_Level_1-212C42?&style=for-the-badge&logo=TryHackMe&logoColor=white" />
+<img src="https://img.shields.io/badge/-Google_
+Cybersecurity_Certificate-4285F4?&style=for-the-badge
+&logo=Google&logoColor=white" />
 </div>
 
-> Currently studying toward CompTIA Security+ — in progress.
+> CompTIA Security+ — currently studying
 
-## Projects
+## Lab Reports
+| # | Lab | Skills Demonstrated |
+|---|-----|-------------------|
+| 01 | [Network Reconnaissance](labs/lab-01-nmap-recon.md) | Nmap, port analysis, service enumeration |
+| 02 | Coming soon | |
 
-- **[Home SOC Lab](#)** — Built a home detection environment using VirtualBox, Sysmon, and the ELK stack. Configured log ingestion from a Windows VM, wrote detection rules, and simulated attacks to generate and analyze alerts.
-- **SOC Automation Lab** *(coming soon)* — Automating alert triage and case creation using Shuffle SOAR and TheHive.
+## TryHackMe
+![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/
+ifystic.png)
+> 80+ rooms completed
