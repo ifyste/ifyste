@@ -59,11 +59,9 @@ something I built, broke, and understood myself.
 </div>
 
 ## Certifications
-<div>
-<img src="https://img.shields.io/badge/-Google_
-Cybersecurity_Certificate-4285F4?&style=for-the-badge
-&logo=Google&logoColor=white" />
-</div>
+<a href="https://coursera.org/share/ae9141029fa6e3304ead5e668204faeb">
+<img src="https://img.shields.io/badge/-Google_Cybersecurity_Certificate-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
+</a>
 
 > CompTIA Security+ — currently studying
 
